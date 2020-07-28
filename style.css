@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+    box-sizing: border-box;
+    font-family: "Muli", sans-serif;
+    font-size: 1.1em;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+section{
+    padding: 20px;
+}
+section h2{
+    font-size: 1.8em;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.base-color{
+    color: deepskyblue;
+    
+}
+.navbar .navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    /* background-color:  yellow; */
+}
+.navbar a{
+    font-size: 1.4em;
+    font-weight: 400;
+}
+.hero{
+    padding-top: 50px;
+    margin-top: 50px;
+    /* background-image: url("images/kim.jpg"); */
+    /* z-index: ; */
+    
+}
+.toolkit{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+.toolkit ul{
+    list-style: none;
+    line-height: 5;
+}
+.toolkit ul li{
+    display: inline-block;
+}
+.toolkit i{
+    font-size: 4rem;
+    transform: scale(1.2);
+}
+.footer{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
