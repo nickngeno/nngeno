@@ -160,7 +160,20 @@ h6 {
 
 .btn-custom:hover{
 
-background-color: var(--grayfluid);
+  background-color: var(--grayfluid);
+}
+
+.btn-send{
+  background-color: var(--base-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-send:hover{
+  background-color:#73b9eb; 
 }
 
 section:nth-child(n + 1) {
