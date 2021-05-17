@@ -464,11 +464,12 @@ background-color: var(--grayfluid) !important;
   position: absolute;
   bottom: 0;
   right: 1rem;
-  font-size: 3rem;
-  /* color: var(--base-color); */
   cursor: pointer;
 }
-
+.up-caret a{
+  color: var(--base-color) !important;
+  font-size: 3rem;
+}
 .intro {
   overflow: hidden;
   animation: intro 1s ease-in;
