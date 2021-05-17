@@ -25,37 +25,18 @@
 	<!-- ****** faviconit.com favicons ****** -->
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-	<link rel="apple-touch-icon" href="/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="/favicon-144.png">
-	<meta name="msapplication-config" content="/browserconfig.xml">
-	<!-- ****** faviconit.com favicons ****** -->
 	
 </head>
 
 <body onscroll="scroll()">
     <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 px-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-2">
             <a class="navbar-brand" href="#"><img src="./images/kims_logo.png" width="50px; height="auto"></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-            aria-label="Toggle navigation">
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+            </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -76,18 +57,17 @@
             </ul>
         </div>
     </nav>
-    <div class="switch">
-        <div id="switch-btn">
-            <input type="checkbox" class="checkbox" id="checkbox" />
-            <label class="switch-label" for="checkbox">
-                <i class="fa fa-sun-o"></i>
-                <i class="fa fa-moon-o"></i>
-                <div class="ball"></div>
-            </label>
-        </div>
+<div class="switch">
+    <div id="switch-btn">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label class="switch-label" for="checkbox">
+            <i class="fa fa-sun-o"></i>
+            <i class="fa fa-moon-o"></i>
+            <div class="ball"></div>
+        </label>
     </div>
+</div>
 </header>
-
 <main role="main">
     <!-- hero section -->
     <section id="hero-section">
@@ -102,8 +82,8 @@
                 
                 <div class="row p-3">
                     <div class="col-sm-4">
-                        <img src="./images/banner-image.png" alt="" class="image-responsive" width="100%"
-                        height="auto" style="border-radius: 50%; float: right" />
+                        <img src="./images/feeling_proud.svg" alt="" class="image-responsive" width="100%"
+                        height="auto"  />
                     </div>
                     <div class="col-sm-8">
                         <div class="intro">
@@ -136,7 +116,7 @@
         <section id="about-section">
             <div class="container">
                 <div class="row px-4">
-                    <div class="col-md-8">
+                    <div class="col-md-6">
                         <h3>More about Me</h3>
                         <p>Languages: English,Kiswahili</p>
                         <p>City: Nairobi, Kenya</p>
@@ -191,8 +171,8 @@
                         </div>
                         
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center align-items-center">
-                        <img src="./images/about-me.png" alt="" width="100%" height="auto" />
+                    <div class="col-md-6 ">
+                        <img src="./images/Web_developer.svg" alt="" width="100%" />
                     </div>
                 </div>
             </section>
@@ -201,98 +181,68 @@
             <!-- projects section -->
             <section id="projects-section">
                 <div class="container">
-				<h3 class="px-4">My Projects</h3>
-					<div class="row p-3">
-						<div class="col">
-							<div class="project-1">
-								<img src="./images/quizapp.PNG" alt="" />
-								<div class="live-git">
-								   <a href="https://letsquiz.netlify.app" target="_blank">Live</a>
-									<a href="#">GitHub</a>
-								</div>
-							</div>
-						</div>
-									
-						<div class="col">
-							<div class="project-1">
-								<img src="./images/myvybe_banner.png" alt="" />
-								<div class="live-git">
-									<a href="">Live</a>
-									<a href="#">GitHub</a>
-								</div>
-							</div>
-						</div>
-									
-						<div class="col">
-							<div class="project-1">
-								<img src="./images/colorEffect.PNG" alt="" />
-								<div class="live-git">
-								   <a href="https://coloreffects.netlify.app" target="_blank">Live</a>
-								   <a href="https://github.com/nickngeno/colorEffectApp/tree/master">GitHub</a>
-								</div>
-							</div>
-						</div>
-						
-								
+                    <h3 class="px-4">My Projects</h3>
+                    <div class="card-deck">
+                        <div class="card shadow">
+                            <img class="card-img-top" src="./images/quizapp.PNG" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">LetsQuiz</h5>
+                                <p class="card-text">HTML,CSS,REACT</p>
+                                <a href="#" class="mr-5" >git <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="https://letsquiz.netlify.app" class="btn btn-custom">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <img class="card-img-top" src="./images/myvybe_banner.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">myVybe</h5>
+                                <p class="card-text">HTML,CSS,REACT</p>
+                                <a href="#" class="mr-5">git <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="#" class="btn btn-custom">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <img class="card-img-top" src="./images/chumz.PNG" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Chumz</h5>
+                                <p class="card-text">HTML,CSS,Bootstrap,SASS</p>
+                                <a href="#" class="mr-5">git <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="https://chumzclone.netlify.app" class="btn btn-custom">Live Demo</a>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="card-deck">
+                        <div class="card shadow">
+                            <img class="card-img-top" src="./images/crypto-track.PNG" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Crypto-track</h5>
+                                <p class="card-text">HTML,CSS,,Bootstrap,REACT</p>
+                                <a href="https://github.com/nickngeno/track-crypto" class="mr-5">git <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="https://crypto-track.netlify.app" class="btn btn-custom">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <img class="card-img-top" src="./images/e-validator.PNG" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">E-validator</h5>
+                                <p class="card-text">HTML,CSS,Typescript,REACT</p>
+                                <a href="https://github.com/nickngeno/emailValidator" class="mr-5">git <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="https://e-validator.netlify.app" class="btn btn-custom ">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <img class="card-img-top" src="./images/colorEffect.PNG" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">PicEdit</h5>
+                                <p class="card-text">HTML,CSS,Vanilla JS</p>
+                                <a href="https://github.com/nickngeno/colorEffectApp" class="mr-5">git <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="https://coloreffects.netlify.app" class="btn btn-custom">Live Demo</a>
+                            </div>
+                        </div>
                     </div>
-                  
-                    <br><p style="text-align: center;"><a href="#">view more</a> </p>
+                    <p style="text-align: center;margin-top: 1.5rem;"><a href="https://github.com/nickngeno" target="_blank">view more</a> </p>
                 </div>
-                
             </section>
-            <!-- end of section -->
-            <!-- start of blog-section -->
-            <!-- <section id="blog-section">
-                <div class="container">
-                    <p>check out my latest blog</p>
-                    <h3>My Blog</h3>
-                    <div class="card-columns">
-                        <div class="card">
-                            <img class="card-img-top" src="images/cardImage1.jpg" alt="" />
-                            <div class="card-body">
-                                <h5 class="card-title">Title</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Mollitia delectus sunt cumque tempore molestiae dolores
-                                    nesciunt molestias recusandae eligendi! Libero rem eos in
-                                    sequi explicabo cupiditate amet non commodi atque?
-                                </p>
-                                <a href="" class="card-link">Read More</a>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <img class="card-img-top" src="./images/cardimg2.jpg" alt="" />
-                            <div class="card-body">
-                                <h5 class="card-title">Title</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Quibusdam ratione, natus eum modi adipisci iusto voluptates
-                                    minus fugit id? Quia delectus sapiente ipsa error ex quae modi
-                                    deserunt minima itaque!
-                                </p>
-                                <a href="" class="card-link">Read More</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="./images/cardImg3.jpg" alt="" />
-                            <div class="card-body">
-                                <h5 class="card-title">Title</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Alias, sequi delectus quam dolorum consequuntur aliquam, enim
-                                    iste voluptates vel reprehenderit iure amet magnam.
-                                    Consectetur, ullam! Molestias a doloribus blanditiis
-                                    excepturi.
-                                </p>
-                                <a href="" class="card-link">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <p style="text-align: center;"><a href="">view more</a> </p>
-                </div>
-            </section> -->
-            <!-- end of blog-section -->
             
             <section id="motivation-section">
                 <div class="container">
@@ -320,22 +270,22 @@
 							<form name="contact-form" netlify>
 								<div class="form-group">
 									<label for="name">Name</label>
-									<input type="text" name="name" id="" class="form-control" placeholder=""
+									<input type="text" name="name" id="name" class="form-control" placeholder="enter name"
 									aria-describedby="helpId" required />
 								</div>
 								<div class="form-group">
 									<label for="email">Email</label>
-									<input type="email" name="email" id="" class="form-control" placeholder=""
+									<input type="email" name="email" id="email" class="form-control" placeholder="enter email"
 									aria-describedby="helpId" required/>
 								</div>
 								<div class="form-group">
 									<label for="subject">Subject</label>
-									<input type="text" name="subject" id="" class="form-control" placeholder=""
+									<input type="text" name="subject" id="subject" class="form-control" placeholder="enter subject"
 									aria-describedby="helpId" />
 								</div>
 								<div class="form-group">
 									<label for="message">Message</label>
-									<textarea name="message" id="" class="form-control" cols="20" rows="4" required></textarea>
+									<textarea name="message" id="message" class="form-control" cols="20" rows="4" required placeholder="enter your message"></textarea>
 								
 								</div>
 								
@@ -369,7 +319,7 @@
         <footer id="footer">
             <div class="footer-copyright">
                 <p>
-                    Copyright &copy 2020 nick<span style="color: var(--base-color)">ngeno</span>
+                    Copyright &copy <span id="date"></span> nick<span style="color: var(--base-color)">ngeno</span>
                 </p>
                 <div class="up-caret">
                     <a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
@@ -377,6 +327,9 @@
             </div>
         </footer>
         <script>
+            var date = new Date().getFullYear();
+            document.getElementById("date").innerHTML = date
+
             const checkbox = document.getElementById("checkbox");
             checkbox.addEventListener("change", () => {
                 if (checkbox) {
@@ -388,7 +341,7 @@
             
             function scroll() {
                 var bod = document.getElementById("hero-section");
-                console.log(window.pageYOffset);
+                // console.log(window.pageYOffset);
                 // if(bod){console.log(window.pageYOffset)}
                 if (window.pageYOffset >= 100){
                     document.getElementById("header").classList.add("shadow-header");
